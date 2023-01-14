@@ -1,0 +1,104 @@
+body{
+    font-family: 'Arima Madurai', cursive;
+    background: lightgoldenrodyellow;
+}
+
+/*Utility classes*/
+.image_response{
+    height: auto;
+    max-width: 100%;
+}
+
+.food_image{
+    background: url("foodorder.jpeg") no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    opacity: 85%;
+}
+
+.food_wrapper{
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    font-size: 20px;
+    opacity: 100%;
+    /*left: 50%;
+    transform: translate(-30%,-30%);*/
+}
+
+.food_wrapper h1{
+    font-size: 60px;
+    text-align: center;  
+}
+
+.form_code .food_code{
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    padding: 0.4rem;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+}
+
+.form_code button{
+    width: 20%;
+    font-size: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: aqua;
+    color: black;
+    margin-top: .5rem;
+    padding: .3rem;
+    border:none;
+    border-radius: .3 rem;
+}
+
+/* Food section */
+.foods{
+    width: 90%;
+    background:red;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.food_list{
+    float: left;
+    width: 33%;
+}
+
+.food_list :first-of-type{
+    margin-left: 0;
+}
+
+@media screen and (max-width:700px) {
+    .food_list{
+        width: 100%;
+        float: none;
+    }
+}
+
+.foods button{
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    align-self: center;
+    margin-bottom: 20px;
+}
+
+.foods button:hover{
+    background: skyblue;
+    color: black;
+    font-weight: bold;
+}

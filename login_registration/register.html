@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head>
+
+    <title>Registration form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <! <script type="text/javascript" src="event.js"></script>>
+
+</head>
+<body>
+    <div class="box">
+        <img src="bg2.png" class="user">
+        <h1>Register here</h1>
+       <form name="myform1" onsubmit="return message1()" action="register.php" method="POST"> 
+
+        <p>Username</p>
+        <input type="text" name="Username1" placeholder="Enter the username" required="">
+        <p>Email</p>
+        <input type="email" name="mailid" placeholder="Enter the mail ID" required="">
+        <p>Password</p>
+        <input type="password" name="user_pwd1" placeholder="Enter the password" required="">
+        <p>Retype Password</p>
+        <input type="password" name="user_pwd2" placeholder="Retype the password" required="">
+
+        <div id="errorbox"></div>
+        <input type="submit" name="" value="Register">
+
+        <br><br>
+        <a href="login.html">Are you an existing user..login</a>
+        </form>
+    </div>
+</body>
